@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(#222, #222), linear-gradient(to right, red, orange, yellow, green, blue, purple);
+  background-origin: padding-box, border-box;
+  background-repeat: no-repeat;
+  border: 5px solid transparent;
+}
+section > .container {
+  position: relative;
+}
+section > .container > h1 {
+  font-size: 7rem;
+  text-align: center;
+  position: absolute;
+}
+section > .container > h1:nth-of-type(2) {
+  background-image: linear-gradient(red, red, orange, yellow, green, rgb(64, 64, 253), purple, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-clip-path: circle(20%);
+          clip-path: circle(20%);
+  animation: circle 7s 0.5s ease-in-out infinite;
+  position: relative;
+}
+
+@keyframes circle {
+  25% {
+    -webkit-clip-path: circle(15% at 0 0);
+            clip-path: circle(15% at 0 0);
+  }
+  50% {
+    -webkit-clip-path: circle(30% at 50% 50%);
+            clip-path: circle(30% at 50% 50%);
+  }
+  50% {
+    -webkit-clip-path: circle(15% at 100% 100%);
+            clip-path: circle(15% at 100% 100%);
+  }
+}/*# sourceMappingURL=master.css.map */
