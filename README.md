@@ -2,7 +2,7 @@
 **If you have a lot of information to display on your site, why don't you use my project**
 
 ![Screenshot_2023_10_31-13](https://github.com/elnaz-eshtiaghi/swing-text/assets/146030206/cb233650-7809-41ba-b69d-fa4c6e85be2f)
-- [Demo Project](  https://elnaz-eshtiaghi.github.io/swing-text/)
+- [Demo Project]( https://elnaz-eshtiaghi.github.io/swingtext.svg-trick/)
 
 - Developed by elnaz eshtiaghi
 
